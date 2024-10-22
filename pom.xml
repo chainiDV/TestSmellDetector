@@ -119,6 +119,20 @@
                     </execution>
                 </executions>
             </plugin>
+            <plugin>
+	            <groupId>edu.rit.se.testsmells</groupId>
+	            <artifactId>test-smell-detector-maven-plugin</artifactId>
+	            <version>0.1</version>
+	            <executions>
+	                <execution>
+	                    <id>run-smell-detector</id>
+	                    <goals>
+	                        <goal>test-smelllist</goal>
+	                    </goals>
+	                    <phase>test</phase>
+	                </execution>
+            	</executions>
+        	</plugin>
         </plugins>
     </build>
 

@@ -63,8 +63,8 @@ public class TestSmellDetectorPlugin extends AbstractMojo {
         	
         }
        
-        getLog().info("1: " + testFiles.size() + "2: " + prodFiles.size());
-        getLog().info("*** TEST SMELLS REPORT ***");
+       // getLog().info("1: " + testFiles.size() + "2: " + prodFiles.size());
+        getLog().info("** TEST SMELLS REPORT **");
 
         TestSmellDetector testSmellDetector = new TestSmellDetector(new DefaultThresholds());
 
