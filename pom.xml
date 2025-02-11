@@ -6,11 +6,10 @@
 
     <groupId>com.github.chainiDV</groupId>
     <artifactId>TestSmellDetector</artifactId>
-    <version>${revision}</version>
+    <version>1.0-SNAPSHOT</version>
     <packaging>maven-plugin</packaging>
 
     <properties>
-        <revision>master-SNAPSHOT</revision>
         <kotlin.version>1.6.0</kotlin.version>
         <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
